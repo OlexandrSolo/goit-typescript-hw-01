@@ -1,5 +1,5 @@
 // task 3.1
-let personInfo: string | number | object;
+let personInfo: string | number ;
 type Man = {
     name: string;
     gender: string;
