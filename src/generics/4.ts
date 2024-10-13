@@ -5,13 +5,6 @@ type User1 = {
   password: string;
 }
 
-// const originalProfile: User = {
-//     name: undefined,
-//     surname: undefined,
-//     email: "",
-//     password: ""
-// }
-
 function createOrUpdateUser( initialValues: Partial<User1> ) {
     return initialValues
 }
